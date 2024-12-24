@@ -243,8 +243,8 @@
 
 
 
-            #region Question 21
-            //21- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+           
+            //11- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
 
 
             //int Size;
@@ -320,13 +320,13 @@
 
 
 
-            #endregion
+           
 
 
 
 
-            #region Question 22
-            //22- Write a program in C# Sharp to count the frequency of each element of an array.
+            
+            //12- Write a program in C# Sharp to count the frequency of each element of an array.
             //int Size;
             //bool flage;
             //do
@@ -389,7 +389,16 @@
 
 
 
-            #endregion
+          
+
+
+
+
+
+
+
+
+
 
 
 

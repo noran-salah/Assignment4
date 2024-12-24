@@ -421,6 +421,52 @@
 
 
 
+            //14- Write a program in C# Sharp to find the second largest element in an array.
+
+            //int Size;
+            //bool flage;
+            //do
+            //{
+            //    Console.WriteLine("Enter number of Size");
+            //    flage = int.TryParse(Console.ReadLine(), out Size);
+            //} while (!flage);
+
+            //int[] arr = new int[Size];
+
+            //for (int i = 0; i < Size; i++)
+            //{
+            //    bool flage02;
+            //    do
+            //    {
+            //        Console.WriteLine($"Enter number {i + 1}");
+            //        flage02 = int.TryParse(Console.ReadLine(), out arr[i]);
+            //    } while (!flage02);
+
+            //}
+            //int temp;
+            //for (int i = 0; i < Size; i++)
+            //{
+            //    for (int j = i + 1; j < Size; j++)
+            //    {
+            //        if (arr[i]> arr[j])
+            //        {
+            //            temp =arr[i];
+            //            arr[i] = arr[j];
+            //            arr[j] = temp;
+            //        }
+
+            //    }
+            //}
+
+            //int SecMax= arr[Size-2];
+
+            //Console.WriteLine($"Second largest Element = {SecMax}");
+
+
+
+
+
+
 
 
 

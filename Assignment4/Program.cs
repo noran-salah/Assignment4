@@ -33,6 +33,34 @@
             //}
 
             //#endregion
+
+
+            ////2-Explain the difference between passing (Reference type parameters) by value and by reference then write a suitable c# example.
+
+            //#region 1-Passing By Value
+            //static void Fun01(int[] arr)
+            //{
+            //    if (arr == null)
+            //        return;
+            //    //arr[0] = 100;
+            //    arr = new int[] { 100, 200, 300 };
+
+            //}
+
+            //#endregion
+
+            //#region 2-Passing By Reference
+            //static void Fun02(ref int[] arr)
+            //{
+            //    if (arr == null)
+            //        return;
+            //    //arr[0] = 100;
+            //    arr = new int[] { 100, 200, 300 };
+
+            //}
+            //#endregion
+
+            //#endregion
         }
     }
 }

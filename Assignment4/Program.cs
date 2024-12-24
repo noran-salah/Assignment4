@@ -61,6 +61,21 @@
             //#endregion
 
             //#endregion
+
+
+           
+            //3-Write a c# Function that accept 4 parameters from user and return result of summation and subtracting of two numbers
+
+            static void Calc(int X, int Y, out int Sum, out int Sub)
+            {
+                Sum = X + Y;
+                Sub = Y - X;
+            }
+            #endregion
+
+
+
+
         }
     }
 }

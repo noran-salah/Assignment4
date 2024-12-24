@@ -516,7 +516,27 @@
 
 
 
+            //16 - Given a list of space separated words, reverse the order of the words.
 
+            //      Input: this is a test       Output: test a is this
+            //      Input: all your base        Output: base your all
+            //      Input: Word Output: Word
+            //      Note : 
+            //      Check the Split Function(Member in String Class) Output will be a Single Console.WriteLine Statement
+
+            //Console.WriteLine("Enter Statment");
+            //string statment = Console.ReadLine();
+
+            //string Result = "";
+
+            //string[] str = statment.Split(" ");
+
+            //for (int i = str.Length-1; i >= 0; i--)
+            //{
+            //    Result += str[i] + " ";
+            //}
+
+            //Console.WriteLine(Result);
 
 
 

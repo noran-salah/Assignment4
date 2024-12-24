@@ -243,7 +243,7 @@
 
 
 
-           
+
             //11- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
 
 
@@ -320,12 +320,12 @@
 
 
 
-           
 
 
 
 
-            
+
+
             //12- Write a program in C# Sharp to count the frequency of each element of an array.
             //int Size;
             //bool flage;
@@ -381,6 +381,40 @@
             //}
 
 
+            //13- Write a program in C# Sharp to find maximum and minimum element in an array
+            //int Size;
+            //bool flage;
+            //do
+            //{
+            //    Console.WriteLine("Enter number of Size");
+            //    flage = int.TryParse(Console.ReadLine(), out Size);
+            //} while (!flage);
+
+            //int[] arr = new int[Size];
+
+            //for (int i = 0; i < Size; i++)
+            //{
+            //    bool flage02;
+            //    do
+            //    {
+            //        Console.WriteLine($"Enter number {i + 1}");
+            //        flage02 = int.TryParse(Console.ReadLine(), out arr[i]);                   
+            //    } while (!flage02);
+
+            //}
+
+            //int max = arr[0]; //[1,5,3]
+            //int min = arr[0];
+
+            //for (int i = 0; i < Size; ++i)
+            //{
+            //    if (max < arr[i])
+            //        max = arr[i];
+            //    if (min > arr[i])
+            //        min = arr[i];
+            //}
+            //Console.WriteLine($"Max ={max}");
+            //Console.WriteLine($"Min ={min}");
 
 
 
@@ -389,7 +423,6 @@
 
 
 
-          
 
 
 

@@ -119,6 +119,26 @@
 
             #endregion
 
+
+
+            #region Question 06
+            //6-Create a function named MinMaxArray, to return the minimum and maximum values stored in an array, using reference parameters
+            static void MinMaxArray(ref int[] arr, out int Max, out int Min)
+            {
+                Max = arr[0]; Min = arr[1];
+                for (int i = 0; i < arr.Length; i++)
+                {
+                    if (Max < arr[i])
+                        Max = arr[i];
+                    if (Min > arr[i])
+                        Min = arr[i];
+                }
+
+            }
+
+
+            #endregion
+
         }
     }
 }

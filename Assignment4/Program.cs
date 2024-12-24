@@ -207,6 +207,44 @@
             //}
 
 
+            //10- Write a program in C# Sharp to find the sum of all elements of the array.
+
+            //int Size;
+            //bool flage;
+            //do
+            //{
+            //    Console.WriteLine("Enter Size ");
+            //    flage = int.TryParse(Console.ReadLine(), out Size);
+            //} while (!flage);
+
+            //int[] arr = new int[Size];
+            //for (int i = 0; i < Size; i++)
+            //{
+
+            //    bool flage02;
+            //    do
+            //    {
+            //        Console.WriteLine($"Enter number {i+1}");
+            //        flage02 = int.TryParse(Console.ReadLine(), out arr[i]);
+            //    } while (!flage02);
+
+            //}
+
+            //int sum = 0;
+
+            //for (int i = 0; i < Size; i++)
+            //{ 
+            //    sum += arr[i];
+            //}
+
+            //Console.WriteLine($"Sum = {sum}");
+
+
+#endregion
+
+
+
+
 
 
         }

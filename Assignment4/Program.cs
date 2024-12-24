@@ -73,7 +73,30 @@
             }
             #endregion
 
+            #region Question 04
+            //4-Write a program in C# Sharp to create a function to calculate the sum of the individual digits of a given number.
+            //Output should be like
+            //Enter a number: 25                                                                                            
+            //The sum of the digits of the number 25 is: 7         
+            // 25
+            static int SumOfDigits(int Num)//25
+            {
+                int sum = 0;
 
+                while (Num != 0)
+                {
+                    int digit = Num % 10;//2
+                    sum += digit; //7
+                    Num /= 10; //2
+
+
+                }
+
+                return sum;
+            }
+
+
+            #endregion
 
 
         }

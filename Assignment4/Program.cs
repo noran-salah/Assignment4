@@ -99,6 +99,26 @@
             #endregion
 
 
+
+            #region Question 05
+            //5-Create a function named "IsPrime", which receives an integer number and retuns true if it is prime, or false if it is not:
+
+            static bool IsPrime(int num)
+            {
+                if (num == 1)
+                    return false;
+                for (int i = 2; i < num; i++)
+                    if (num % i == 0)
+                        return false;
+                return true;
+
+
+            }
+
+
+
+            #endregion
+
         }
     }
 }

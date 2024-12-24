@@ -161,7 +161,19 @@
 
             #endregion
 
+            #region Question 08
+            //8-Create a function named "ChangeChar" to modify a letter in a certain position (0 based) of a string, replacing it with a different letter
 
+
+            static string ChangeChar(string text, int position, char C)
+            {
+                text = text.Remove(position, 1);
+                text = text.Insert(position, C.ToString());
+                return text;
+
+            }
+
+            #endregion
 
 
 

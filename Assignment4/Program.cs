@@ -325,7 +325,71 @@
 
 
 
+            #region Question 22
+            //22- Write a program in C# Sharp to count the frequency of each element of an array.
+            //int Size;
+            //bool flage;
+            //do
+            //{
+            //    Console.WriteLine("Enter number of hours");
+            //    flage = int.TryParse(Console.ReadLine(), out Size);
+            //} while (!flage);
 
+            //int[] arr =new int[Size]; 
+            //int[] freq =new int[Size];
+
+            //for (int i = 0; i < Size; i++)
+            //{
+            //    bool flage02;
+            //    do
+            //    {
+            //        Console.WriteLine($"Enter number {i + 1}");
+            //        flage02 = int.TryParse(Console.ReadLine(), out arr[i]);
+            //        freq[i] = -1;
+            //    } while (!flage02);
+
+            //}
+
+            //int X,j,counter = 0;  //[2,1,1]    freq [-1,-1,-1]
+
+            //for (int i = 0; i < Size; i++) //i=2
+            //{
+            //    counter = 1;
+
+            //    for (j = i+1; j < Size;j++) 
+            //    {
+
+            //        if (arr[i] == arr[j])
+            //        {
+            //            counter++;
+            //            freq[j] = 0;
+            //        }
+
+            //    }
+            //    if (freq[i] != 0)
+            //    {
+            //        freq[i] = counter;
+
+            //    }
+
+            //}
+            //Console.WriteLine("Frequesncy Equal = ");
+            //for(int i = 0;i < Size; i++)
+            //{
+            //    if (freq[i] > 0)
+            //        Console.WriteLine($"{arr[i]} Repeated {freq[i]}");
+            //}
+
+
+
+
+
+
+
+
+
+
+            #endregion
 
 
 

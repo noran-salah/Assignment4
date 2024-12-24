@@ -178,6 +178,37 @@
 
 
 
+            //9- . Write a program that prints an identity matrix using for loop, in other words takes a value n from the user and shows the identity table of size n * n.
+            // 1 0 0
+            // 0 1 0
+            // 0 0 1
+
+            //int Num;
+            //bool flage;
+            //do
+            //{
+            //    Console.WriteLine("Enter number ");
+            //    flage = int.TryParse(Console.ReadLine(), out Num);
+            //} while (!flage);
+
+            //for (int i = 0; i < Num; i++)
+            //{
+            //    for (int j = 0; j < Num; j++) 
+            //    {
+            //        if(i == j)
+            //            Console.Write($" {1} ");
+            //        else
+            //            Console.Write($" {0} ");
+
+            //    }
+            //    Console.WriteLine();
+
+
+            //}
+
+
+
+
         }
     }
 }

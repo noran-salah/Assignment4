@@ -240,7 +240,89 @@
             //Console.WriteLine($"Sum = {sum}");
 
 
-#endregion
+
+
+
+            #region Question 21
+            //21- Write a program in C# Sharp to merge two arrays of the same size sorted in ascending order.
+
+
+            //int Size;
+            //bool flage;
+            //do
+            //{
+            //    Console.WriteLine("Enter number of Size");
+            //    flage = int.TryParse(Console.ReadLine(), out Size);
+            //} while (!flage);
+
+            //int[] arr01 =new int[Size];
+            //int[] arr02 =new int[Size];
+            //int[] arr03 =new int[Size*2];
+
+            //for (int i = 0; i < Size; i++)
+            //{
+            //    bool flage02;
+            //    do
+            //    {
+            //        Console.WriteLine($"Enter number {i+1}");
+            //        flage02 = int.TryParse(Console.ReadLine(), out arr01[i]);
+            //    } while (!flage02);
+
+            //}
+            //for (int i = 0; i < Size; i++)
+            //{
+            //    bool flage03;
+            //    do
+            //    {
+            //        Console.WriteLine($"Enter number {i + 1}");
+            //        flage03 = int.TryParse(Console.ReadLine(), out arr02[i]);
+            //    } while (!flage03);
+
+            //}
+
+            //int x;
+            //for (x = 0; x < Size; x++)
+            //{
+            //    arr03[x]= arr01[x];
+            //}
+
+            //for(int i=0; i<Size; i++)
+            //{
+
+            //    arr03[x] = arr02[i];
+            //    x++;
+            //}
+            //int temp;
+            //for( int i=0; i < Size * 2; i++)
+            //{
+            //    for(int j = i+1; j< Size * 2; j++)
+            //    {
+            //       if( arr03[i]> arr03[j])
+            //        {
+            //            temp = arr03[i];
+            //            arr03[i] = arr03[j];
+            //            arr03[j] = temp;
+
+            //        }
+            //    }
+            //}
+            //Console.WriteLine("Sorted array :");
+            //for( int i=0; i<Size*2;i++)
+            //{
+
+            //    Console.WriteLine($" {arr03[i]}");
+            //}
+
+
+
+
+
+
+
+
+            #endregion
+
+
 
 
 

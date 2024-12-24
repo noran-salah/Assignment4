@@ -540,6 +540,15 @@
 
 
 
+            //19- Write a Program to Print One Dimensional Array in Reverse Order
+
+            //int[] arr = { 1, 2, 3 ,4};
+
+            // for (int i = arr.Length - 1; i >= 0; i--)
+            // {
+            //     Console.WriteLine(arr[i]);
+            // }
+
 
 
 

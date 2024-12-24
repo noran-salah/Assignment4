@@ -139,6 +139,33 @@
 
             #endregion
 
+
+
+
+
+            #region Question 07
+            //7-Create an iterative (non-recursive) function to calculate the factorial of the number specified as parameter
+            //5 -->120
+            static long Fact(int num)
+            {
+                int fact = 1;
+
+                for (int i = 1; i <= num; i++)
+                {
+                    fact *= i;
+                }
+                return fact;
+            }
+
+
+
+            #endregion
+
+
+
+
+
+
         }
     }
 }
